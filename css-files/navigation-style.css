@@ -1,0 +1,119 @@
+
+
+ nav {
+  width: 900px; 
+  position: relative;
+  padding-bottom: 0px;
+  padding-top: 0px;
+ 
+   
+  }
+
+nav ul {
+  padding-left:0px;
+  padding-bottom:0px;
+  padding-top:0px;
+  list-style: none;
+  overflow: hidden; 
+  }
+
+nav ul li {
+
+  float: left;
+  width: 20%; 
+  }
+
+nav ul li a {
+
+  text-align: center;
+
+  padding: 5px 0;
+
+  display: block;
+
+  width: 100%;
+
+  background: black; /* Old browsers */
+
+  /*background: -moz-linear-gradient(top, #cdeb8e 0%, #b0ca34 100%); /* FF3.6+ */
+
+  /*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cdeb8e), color-stop(100%,#b0ca34)); /* Chrome,Safari4+ */
+
+  /*background: -webkit-linear-gradient(top, #cdeb8e 0%,blue 100%); /* Chrome10+,Safari5.1+ */
+
+  /*background: -o-linear-gradient(top, #cdeb8e 0%,#b0ca34 100%); /* Opera 11.10+ */
+
+  /*background: linear-gradient( bottom, #cdeb8e 0%,#b0ca34 100%); /* W3C, IE10+ */
+
+   /* IE6-9 */
+
+}
+
+nav ul li a,
+
+nav ul li a:focus,
+
+nav ul li a:visited,
+
+nav ul li a:hover,
+
+nav ul li a:active {
+
+  color: white;
+  font-style:normal;
+  font-size:20px;
+  text-decoration: none; 
+  }
+
+
+
+nav ul li a:hover,
+
+nav ul li a:active {
+
+  background: gray; /* Old browsers */
+
+  /*background: -moz-linear-gradient(top, #b0ca34 0%, #96c40d 100%); /* FF3.6+ */
+
+  /*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b0ca34), color-stop(100%,#96c40d)); /* Chrome,Safari4+ */
+
+  /*background: -webkit-linear-gradient(top, #b0ca34 0%,#96c40d 100%); /* Chrome10+,Safari5.1+ */
+
+  /*background: -o-linear-gradient(top, #b0ca34 0%,#96c40d 100%); /* Opera 11.10+ */
+
+  /*background: linear-gradient(to bottom, #b0ca34 0%,white 100%); /* W3C, IE10+ */
+
+  /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b0ca34', endColorstr='#96c40d',GradientType=0 ); /* IE6-9 */
+
+}
+.menu li:hover .sub-menu {
+    z-index:1;
+    opacity:1;
+}
+ 
+.sub-menu {
+    width:160%;
+    padding:5px 0px;
+    position:absolute;
+    top:100%;
+    left:0px;
+    z-index:-1;
+    opacity:0;
+    transition:opacity linear 0.15s;
+    box-shadow:0px 2px 3px rgba(0,0,0,0.2);
+    background:#2e2728;
+}
+ 
+.sub-menu li {
+    display:block;
+    font-size:16px;
+}
+ 
+.sub-menu li a {
+    padding:10px 30px;
+    display:block;
+}
+ 
+.sub-menu li a:hover, .sub-menu .current-item a {
+    background:#3e3436;
+}

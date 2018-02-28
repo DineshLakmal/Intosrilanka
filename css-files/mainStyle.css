@@ -1,0 +1,66 @@
+
+body.home{
+	background-image:url("../Images/background2.jpg");
+	
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
+    margin-top:0px;
+	background-attachment: fixed;
+	
+	height: 1700px;
+	min-width:1200px;
+	background-position: 0px 0px;
+	background-color: white;
+}
+
+
+body.login{
+	background-image:url("../Images/background2.jpg");
+	
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
+    margin-top:0px;
+	background-attachment: fixed;
+	
+	height: 800px;
+	min-width:1200px;
+	background-position: 0px 0px;
+	background-color: white;
+}
+
+body.location{
+	background-image:url("../Images/background2.jpg");
+	
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
+    margin-top:0px;
+	background-attachment: fixed;
+	
+	height: 1950px;
+	min-width:1200px;
+	background-position: 0px 0px;
+	background-color: white;
+}
+
+div.back {
+    background: url(../Images/black.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.3;
+    border: 5px;
+    border-color:white;
+  
+}
+
+	   a.for_link{
+			text-decoration:none;
+			color:#999999;
+			font-size:18px;
+		}
+		a.for_link:hover{
+			text-decoration:none;
+			color:#FAFAFA;
+			font-size:18px;
+		
+		}
+		
